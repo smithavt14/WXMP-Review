@@ -10,6 +10,6 @@
       <view class="subHeader">{{item.name}}</view>
       <button type="warn" bindtap="submitOrder" data-id="{{item.id}}">${{item.price/10}}</button>
     </view>
-  
   </view>
 </view>
+<view class="subHeader">Dwight is a pretty nice guy.</view>
