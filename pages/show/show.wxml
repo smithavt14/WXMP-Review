@@ -12,4 +12,5 @@
     </view>
   </view>
 </view>
-<view class="subHeader">Dwight is a pretty nice guy.</view>
+<view class="subHeader">Dwight is a pretty nice guy...</view>
+<view class="subHeader">... </view>
