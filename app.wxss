@@ -1,0 +1,94 @@
+Page {
+  background: #FDFDFD;
+}
+/* --- Containers --- */
+.container {
+  padding: 0 48rpx;
+}
+
+/* --- Text --- */
+.header {
+  font-size: 56rpx;
+  font-weight: bolder;
+  margin: 16rpx 0;
+}
+
+.subHeader {
+  font-size: 40rpx;
+  font-weight: bolder
+}
+
+.body {
+  color: rgba(0,0,0,0.6);
+}
+
+/* --- Icons --- */
+.icon {
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 16rpx;
+}
+
+/* --- Logo --- */
+.logo {
+  height: 280rpx;
+  width: 280rpx;
+  margin-top: 240rpx;
+}
+
+/* --- Footer --- */
+.footer {
+  position: sticky;
+  bottom: 0;
+  height: 200rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+  font-weight: bolder;
+}
+
+.btn-flat {
+  height: 88rpx;
+  color: white;
+  padding: 8px 24px;
+  border-radius: 4px;
+  background: #FD1015;
+  transition: background 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90% !important;
+  box-sizing: border-box;
+}
+
+/* --- Cards --- */
+.card-meal {
+  height: 250rpx;
+  width: 100%;
+  background: white;
+  box-shadow: 4px 4px 8px rgba(0,0,0,0.2);
+  display: flex;
+  overflow: hidden;
+  margin: 32rpx 0;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.card-meal .flex-meal button {
+  width: 200rpx !important;
+  margin: 0 !important;
+}
+
+.card-meal .img-meal {
+  height: 100%;
+  width: 40%;
+}
+
+.card-meal .container-info {
+  padding: 32rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

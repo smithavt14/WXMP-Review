@@ -1,0 +1,15 @@
+<view class = "container">
+  <image src="{{restaurant.image}}" mode = "aspectFill"></image>
+  <view>{{restaurant.name}}</view>
+  <view>{{restaurant.address}}</view>
+  <view>{{restaurant.description}}</view>
+  <view class="subHeader">Meals</view>
+  <view class="card-meal" wx:for="{{meals}}">
+    <image class="img-meal" src="{{item.image.path}}"></image>
+    <view class="container-info">
+      <view class="subHeader">{{item.name}}</view>
+      <button type="warn" bindtap="submitOrder" data-id="{{item.id}}">${{item.price/10}}</button>
+    </view>
+  
+  </view>
+</view>

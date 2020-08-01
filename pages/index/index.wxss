@@ -1,0 +1,11 @@
+.restaurantCard {
+  height: 300rpx;
+  box-shadow: 4px 4px 8px rgba(0,0,0,0.2);
+  border-radius: 4px;
+  padding: 16rpx;
+  margin: 32rpx 0;
+  color: white;
+  font-size: 64rpx;
+  font-weight: bolder;
+  text-align: center;
+}

@@ -1,0 +1,3 @@
+<view class="container">
+  <view class="restaurantCard" bindtap="navigateToShow" data-id= "{{item.id}}" wx:for="{{restaurant}}" style="background: url({{item.image}})">{{item.name}}</view>
+</view>
