@@ -1,8 +1,9 @@
 <view class="container">
-  <image src="{{user.avatar}}"></image>
+  <image class="avatar" src="{{user.avatar}}"></image>
   <view>{{user.nickname}}</view>
+  <view >{{user.points}}</view>
   <view class="subHeader">Orders</view>
-  <view class="card-meal" wx:for="{{order}}">
+  <view class="card-meal" wx:for="{{orders}}">
     <image mode = "aspectFill" class="img-meal" src="{{item.meal_id.image.path}}"></image>
     <view class="container-info">
       <view class="subHeader">{{item.meal_id.name}}</view>

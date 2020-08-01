@@ -8,9 +8,7 @@
     <image class="img-meal" src="{{item.image.path}}"></image>
     <view class="container-info">
       <view class="subHeader">{{item.name}}</view>
-      <button type="warn" bindtap="submitOrder" data-id="{{item.id}}">${{item.price/10}}</button>
+      <button type="warn" bindtap="submitOrder" data-points="{{item.points}}" data-id="{{item.id}}">{{item.price > 0 ? item.price/10 : -item.points }} {{item.price > 0? "$":"Points"}}</button>
     </view>
   </view>
 </view>
-<view class="subHeader">Dwight is a pretty nice guy...</view>
-<view class="subHeader">... </view>
